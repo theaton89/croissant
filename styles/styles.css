@@ -1,3 +1,26 @@
+ul {
+  list-style: none;
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  margin-right: 60px;
+}
+
 h1 {
-  color: blue;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
 }
